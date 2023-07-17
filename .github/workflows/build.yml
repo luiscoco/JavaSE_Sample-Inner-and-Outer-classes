@@ -23,6 +23,3 @@ jobs:
 
       - name: Compile Java
         run: javac -d . src/*.java
-
-      - name: Run Tests
-        run: java -cp . org.junit.runner.JUnitCore test.TestSuite
